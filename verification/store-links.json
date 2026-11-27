@@ -1,0 +1,145 @@
+{
+  "method": "curl -I, no redirect following, 35-second timeout per supplied URL",
+  "checks": [
+    {
+      "id": "hp-omnibook-5",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/hp-omnibook-5-14-2k-oled-touchscreen-laptop-intel-core-5-series-3-2026-8gb-memory-256gb-storage-starlit-blue/J3KSW748W6/sku/6690110",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "hisense-65-h5r1",
+      "store": "Walmart",
+      "url": "https://www.walmart.com/ip/Hisense-65-Class-H5R1-Series-4K-UHD-HDR-Smart-Roku-TV-65H5R1-2026-Model-Full-Array-LED-Dolby-Vision-AI-4K-Upscaler-Game-Mode-Plus-DTS-Virtual-X-Noise/20206324665",
+      "status": "307",
+      "curlExit": 0
+    },
+    {
+      "id": "sony-xm5",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-noise-cancelling-over-the-ear-headphones-black/J7XSRH5CXG/sku/6505727?utm_source=meta&utm_medium=feed&fs=toxl8r&country=US",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "tcl-65-s4cf",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/site/-/6687112.p?skuId=6687112",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "bose-qc",
+      "store": "Target",
+      "url": "https://www.target.com/p/bose-quietcomfort-bluetooth-wireless-noise-cancelling-headphones-blue-dusk/-/A-92407081?preselect=88914424",
+      "status": "200",
+      "curlExit": 0
+    },
+    {
+      "id": "beats-studio-pro",
+      "store": "Walmart",
+      "url": "https://www.walmart.com/ip/Beats-Studio-Pro-Wireless-Headphones-White-Black/14280620660",
+      "status": "307",
+      "curlExit": 0
+    },
+    {
+      "id": "airpods-pro-3-walmart",
+      "store": "Walmart",
+      "url": "https://www.walmart.com/ip/AirPods-Pro-3/17835006350",
+      "status": "307",
+      "curlExit": 0
+    },
+    {
+      "id": "beats-solo-4",
+      "store": "Target",
+      "url": "https://www.target.com/p/beats-solo-4-bluetooth-wireless-on-ear-headphones-warm-white/-/A-93124207?preselect=93124207&clkid&cpng=PTID1&TCID=AFL-&afsrc=1&lnm=81938&afid=MagicLinks&ref=tgt_adv_xasd0002",
+      "status": "200",
+      "curlExit": 0
+    },
+    {
+      "id": "macbook-air-m5",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/apple-macbook-air-13-inch-laptop-m5-chip-with-10-core-cpu-and-8-core-gpu-16gb-memory-512gb-ssd-starlight/JJGCQLKCJZ/sku/6559890",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "airpods-pro-3-target",
+      "store": "Target",
+      "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609?TCID=OGS&AFID=google&CPNG=Electronics&adgroup=57-10&srsltid=AYCX9vIme_ghC480tywTrIjanimLnzm2ZCS3yQ488_sJOkGzsPUYoai5FfU",
+      "status": "200",
+      "curlExit": 0
+    },
+    {
+      "id": "sony-xm6",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/sony-wh1000xm6-best-wireless-noise-canceling-headphones-midnight-blue/J7XSRH5R2S",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "kindle-paperwhite",
+      "store": "Target",
+      "url": "https://www.target.com/p/amazon-kindle-paperwhite-2024-black/-/A-91563138?preselect=93320267",
+      "status": "200",
+      "curlExit": 0
+    },
+    {
+      "id": "nba-2k27-ps5",
+      "store": "Target",
+      "url": "https://www.target.com/p/mcb-27-playstation-5/-/A-1012695231",
+      "status": "200",
+      "curlExit": 0
+    },
+    {
+      "id": "switch-2-bundle",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/switch-2-mario-kart-world-bundle/J7GSL57WWG/sku/6689812",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "dell-xps-13",
+      "store": "Dell",
+      "url": "https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260",
+      "status": "200",
+      "curlExit": 0
+    },
+    {
+      "id": "mx-master-3s",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/logitech-mx-master-3s-bluetooth-edition-performance-wireless-optical-mouse-with-ultra-fast-scrolling-and-quiet-clicks-wireless-black/J7H7ZYG559",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "shark-powerdetect",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/shark-powerdetect-speed-cordless-stick-vacuum-cleaner-hepa-filtration-60-min-runtime-ia1121-ivory/JXJVXL847Y/sku/6689453?ref=166_625&loc=SOC_MDF_ASC_1692337_120249298161040259_FY27_HOL_SMAPP_SHKNJA_10008797_OG_PDSOC_MULTI_META_CVR_Socialplus_MDF_NA_November2026_Others%E2%80%8B&media_type=image",
+      "status": "000",
+      "curlExit": 28
+    },
+    {
+      "id": "fire-tv-stick-4k",
+      "store": "Amazon",
+      "url": "https://www.amazon.com/dp/B0G4XRP464?tag=httpwwwtechsp-20",
+      "status": "503",
+      "curlExit": 0
+    },
+    {
+      "id": "samsung-9100-pro",
+      "store": "Amazon",
+      "url": "https://www.amazon.com/dp/B0DX2G349M?tag=httpwwwtechsp-20",
+      "status": "503",
+      "curlExit": 0
+    },
+    {
+      "id": "insignia-40-f40",
+      "store": "Best Buy",
+      "url": "https://www.bestbuy.com/product/insignia-40-class-f40-series-led-full-hd-1080p-smart-fire-tv/J2FPJK67CQ/sku/6614066?utm_source=meta&utm_medium=feed&fs=to97m7",
+      "status": "000",
+      "curlExit": 28
+    }
+  ]
+}

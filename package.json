@@ -1,0 +1,7 @@
+{
+  "name": "dealcheck",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node scripts/grade.mjs" },
+  "engines": { "node": ">=22.18" }
+}
