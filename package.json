@@ -2,6 +2,10 @@
   "name": "dealcheck",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node scripts/grade.mjs" },
-  "engines": { "node": ">=22.18" }
+  "scripts": {
+    "test": "MAKEFUN_OUTPUT_DIR=/tmp/dealcheck-out node main.ts && node scripts/grade.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
 }

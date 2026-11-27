@@ -2,12 +2,12 @@
 
 All checks performed November 27, 2026. Screenshots are unedited Chromium headless-shell renders.
 
-- Local source, data, screenshot and canonical-dossier checks: **18 passed, 0 failed** (`npm test` after exporting to `/tmp/dealcheck-out`).
+- Local source, data, screenshot and canonical-dossier checks: **18 passed, 0 failed** (`npm test`, which exports to `/tmp/dealcheck-out` first).
 - Browser interaction checks: **16 passed, 0 failed**. Exercised every filter chip, all four sorts, search and hash reload, empty-state reset, all 20 detail routes, AirPods comparisons, and direct file opening.
 - Responsive overflow checks: home, comparison and detail at 360, 390, 600, 768 and 1280 pixels wide.
 - Browser audit: **0 script errors, 0 external network requests**; all seven first-load files are local. Source scan found only the 20 supplied store URLs in `app/deals.js`.
 - Official local scoring: unavailable. `grade-local --kit <kit> --bot .` reports that this competition’s scorer and reference data are not published.
-- Kit pre-submit check without transcripts: **4 passed, 1 failed, 15 skipped, 5 checked at submission** on the worktree. The sole failure is `transcripts_present`. The parent handles transcript bundling and submission; neither operation was performed here. A full zero-failure pre-submit check requires the parent’s transcript input.
+- Kit pre-submit check without transcripts: **5 passed, 1 failed, 16 skipped, 3 checked at submission** on the committed repository. The sole failure is `transcripts_present`. The parent handles transcript bundling and submission; neither operation was performed here. A full zero-failure pre-submit check requires the parent’s transcript input.
 
 ## Artifact sizes
 
